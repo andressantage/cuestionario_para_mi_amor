@@ -1,0 +1,106 @@
+[
+    {
+        "pregunta": "____ that film last night?",
+        "a": "Have you see",
+        "b": "Did you saw",
+        "c": "Did you see",
+        "d": "Do you see",
+        "rta": "a"
+    },
+    {
+        "pregunta": "I hope ______ some money soon ",
+        "a": "earning",
+        "b": "to earn",
+        "c": "to earning",
+        "d": "earn",
+        "rta": "b"
+    },
+    {
+        "pregunta": "How _____ is this cap? $5?",
+        "a": "many",
+        "b": "price",
+        "c": "a lot of",
+        "d": "much",
+        "rta": "d"
+    },
+    {
+        "pregunta": "John walked through the park, marveling at the vibrant colors of the flowers and the gentle rustle of leaves in the breeze. He noticed families picnicking on the grass, children laughing as they played on the swings, and couples strolling hand in hand along the winding paths. The scent of freshly cut grass mingled with the aroma of blooming flowers, creating a serene atmosphere. As he continued his walk, como John couldn't help but feel a sense of tranquility wash over him, grateful for the beauty of nature surrounding him.\n\nHow does John feel during his walk in the park?    ",
+        "a": "Angry and frustrated",
+        "b": "Stressed and anxious",
+        "c": "Serene and grateful",
+        "d": "Boredandtired",
+        "rta": "c"
+    },
+    {
+        "pregunta": "She has good marks ______ she works hard.",
+        "a": "too",
+        "b": "but",
+        "c": "so",
+        "d": "because",
+        "rta": "b"
+    },
+    {
+        "pregunta": "What does the word \"benevolent\" mean? ",
+        "a": "Kind",
+        "b": "Arrogant",
+        "c": "Unfriendly",
+        "d": "Hostile",
+        "rta": "a"
+    },
+    {
+        "pregunta": "She speaks good Spanish, but only __ Russian.",
+        "a": "much",
+        "b": "a lot of",
+        "c": "a little",
+        "d": "a few",
+        "rta": "c"
+    },
+    {
+        "pregunta": "Silver shared his ideas with  ______.  (AUDIO ADJUNTO)",
+        "a": "no one",
+        "b": "his mother",
+        "c": "his secretary",
+        "d": "his coworkers",
+        "rta": "d"
+    },
+    {
+        "pregunta": "I'm excited ________ at my exam.  ",
+        "a": "for",
+        "b": "about",
+        "c": "from",
+        "d": "at",
+        "rta": "b"
+    },
+    {
+        "pregunta": "He has __________ money. He's a millionaire. ",
+        "a": "a lot",
+        "b": "many",
+        "c": "a little",
+        "d": "a lot of",
+        "rta": "d"
+    },
+    {
+        "pregunta": "The twins _______ born in June.",
+        "a": "will",
+        "b": "were",
+        "c": "is",
+        "d": "am",
+        "rta": "b"
+    },
+    {
+        "pregunta": "Clair ______ with my cousin.",
+        "a": "work",
+        "b": "works",
+        "c": "working",
+        "d": "is work",
+        "rta": "d"
+    },
+    {
+        "pregunta": "Mark is a big fan of outdoor activities, so he decided to join a hiking club in his city. Every onder weekend, the club organizes hikes in different nearby trails, and Mark loves exploring nature with like-minded people. He finds hiking relaxing and enjoys the sense of accomplishment la como when reaching the summit of a mountain.   \n\n  What outdoor activity does Mark enjoy?   ",
+        "a": "Skiing",
+        "b": "Hiking",
+        "c": "Biking",
+        "d": "Surfing",
+        "rta": "b"
+    }
+]
