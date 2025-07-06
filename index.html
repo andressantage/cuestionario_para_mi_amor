@@ -26,6 +26,9 @@
         #progress {
             margin-bottom: 20px;
         }
+        #back-btn {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
@@ -44,6 +47,7 @@
             <p id="score-text"></p>
             <button id="restart-btn" class="btn btn-primary">Reiniciar</button>
         </div>
+        <button id="back-btn" class="btn btn-secondary mt-3" style="display: none;">Atrás</button>
         <button id="next-btn" class="btn btn-primary mt-3">Siguiente</button>
         <button id="finish-btn" class="btn btn-success mt-3" style="display: none;">Finalizar</button>
     </div>
@@ -56,12 +60,14 @@
         let score = 0;
         let selectedOption = null;
         let answeredQuestions = new Set(); // Para rastrear preguntas respondidas correctamente
+        let selectedOptions = {}; // Para almacenar selecciones por pregunta
 
         const questionText = document.getElementById('question-text');
         const optionsContainer = document.getElementById('options');
         const feedbackContainer = document.getElementById('feedback');
         const nextBtn = document.getElementById('next-btn');
         const finishBtn = document.getElementById('finish-btn');
+        const backBtn = document.getElementById('back-btn');
         const resultContainer = document.getElementById('result');
         const scoreText = document.getElementById('score-text');
         const restartBtn = document.getElementById('restart-btn');
@@ -116,7 +122,7 @@
             // Limpiar contenedor de opciones
             optionsContainer.innerHTML = '';
             feedbackContainer.innerHTML = '';
-            selectedOption = null;
+            selectedOption = selectedOptions[currentQuestionIndex] || null;
 
             // Crear botones para cada opción
             shuffledOptions.forEach(option => {
@@ -124,12 +130,25 @@
                 btn.className = 'btn btn-outline-primary option-btn';
                 btn.innerHTML = `<strong>${option.letter.toUpperCase()}.</strong> ${option.text}`;
                 btn.onclick = () => selectOption(option.letter, btn);
+
+                // Resaltar opción previamente seleccionada
+                if (selectedOption === option.letter) {
+                    if (option.letter === question.rta) {
+                        btn.classList.add('correct');
+                        feedbackContainer.innerHTML = '<i class="fas fa-check-circle text-success"></i> ¡Correcto!';
+                    } else {
+                        btn.classList.add('incorrect');
+                        feedbackContainer.innerHTML = '<i class="fas fa-times-circle text-danger"></i> Incorrecto';
+                    }
+                }
+
                 optionsContainer.appendChild(btn);
             });
 
-            // Mostrar u ocultar botones de siguiente/finalizar
-            nextBtn.style.display = currentQuestionIndex < questions.length - 1 ? 'block' : 'none';
-            finishBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'block' : 'none';
+            // Mostrar u ocultar botones
+            backBtn.style.display = currentQuestionIndex > 0 ? 'inline-block' : 'none';
+            nextBtn.style.display = currentQuestionIndex < questions.length - 1 ? 'inline-block' : 'none';
+            finishBtn.style.display = currentQuestionIndex === questions.length - 1 ? 'inline-block' : 'none';
             resultContainer.style.display = 'none';
         }
 
@@ -146,6 +165,7 @@
 
             // Marcar opción seleccionada
             selectedOption = letter;
+            selectedOptions[currentQuestionIndex] = letter; // Guardar selección
             if (letter === question.rta) {
                 button.classList.add('correct');
                 feedbackContainer.innerHTML = '<i class="fas fa-check-circle text-success"></i> ¡Correcto!';
@@ -157,8 +177,22 @@
             } else {
                 button.classList.add('incorrect');
                 feedbackContainer.innerHTML = '<i class="fas fa-times-circle text-danger"></i> Incorrecto';
+                // Si la pregunta estaba marcada como correcta, restar el punto si la nueva selección es incorrecta
+                if (answeredQuestions.has(currentQuestionIndex)) {
+                    score--;
+                    answeredQuestions.delete(currentQuestionIndex);
+                    currentScoreDisplay.textContent = score;
+                }
             }
         }
+
+        // Manejar botón de atrás
+        backBtn.onclick = () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                loadQuestion();
+            }
+        };
 
         // Manejar botón de siguiente
         nextBtn.onclick = () => {
@@ -184,6 +218,7 @@
             questionText.textContent = '¡Cuestionario finalizado!';
             optionsContainer.innerHTML = '';
             feedbackContainer.innerHTML = '';
+            backBtn.style.display = 'none';
             nextBtn.style.display = 'none';
             finishBtn.style.display = 'none';
             resultContainer.style.display = 'block';
@@ -196,6 +231,7 @@
             currentQuestionIndex = 0;
             score = 0;
             answeredQuestions.clear();
+            selectedOptions = {};
             currentScoreDisplay.textContent = score;
             loadQuestion();
         };

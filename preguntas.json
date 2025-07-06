@@ -5,7 +5,7 @@
         "b": "Did you saw",
         "c": "Did you see",
         "d": "Do you see",
-        "rta": "a"
+        "rta": "c"
     },
     {
         "pregunta": "I hope ______ some money soon ",
@@ -37,7 +37,7 @@
         "b": "but",
         "c": "so",
         "d": "because",
-        "rta": "b"
+        "rta": "d"
     },
     {
         "pregunta": "What does the word \"benevolent\" mean? ",
@@ -93,7 +93,7 @@
         "b": "works",
         "c": "working",
         "d": "is work",
-        "rta": "d"
+        "rta": "b"
     },
     {
         "pregunta": "Mark is a big fan of outdoor activities, so he decided to join a hiking club in his city. Every onder weekend, the club organizes hikes in different nearby trails, and Mark loves exploring nature with like-minded people. He finds hiking relaxing and enjoys the sense of accomplishment la como when reaching the summit of a mountain.   \n\n  What outdoor activity does Mark enjoy?   ",
@@ -208,7 +208,7 @@
         "rta": "d"
     },
     {
-        "pregunta": "The man doesn't want to watch the reality show because he ____",
+        "pregunta": "The man doesn't want to watch the reality show because he ____. (AUDIO)",
         "a": "watched the same program last week",
         "b": "isn't interested in the show's theme",
         "c": "he wants to fix things",
@@ -232,7 +232,7 @@
         "rta": "c"
     },
     {
-        "pregunta": "What happens at the end of the conversation?",
+        "pregunta": "What happens at the end of the conversation? (AUDIO)",
         "a": "The apologizes for his mistake",
         "b": "The woman is angny and leaves the house",
         "c": "The couple argue about the situation",
@@ -333,7 +333,7 @@
         "b": "Simplification",
         "c": "Stetificiation",
         "d": "Unification",
-        "rta": "a"
+        "rta": "b"
     },
     {
         "pregunta": "Emma is passionate about conservation of the environment and volunteers at a local nonprofit organization that focuses on protecting animals and wildlife habitats. She helps organize beach cleanups and educational workshops to raise awareness about the importance of preserving natural ecosystems. Emma hopes to inspire others to take action and make a positive impact on the planet.\n\nWhat cause is Emma passionate about?",
