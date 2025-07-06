@@ -102,5 +102,293 @@
         "c": "Biking",
         "d": "Surfing",
         "rta": "b"
+    },
+    {
+        "pregunta": "Whappened at the intersection? (AUDIO)",
+        "a": "The driver didn't have his licens",
+        "b": "The driver failed to yield to other drivers",
+        "c": "The driver didn't come to a complete stop",
+        "d": "The driver didn't use his turn signals",
+        "rta": "c"
+    },
+    {
+        "pregunta": "Sarah has been living in Japan for two years now: She started learning the language because she has always been fascinated by Japanese culture; especially anime and manga Sarah finds Japanese grammar challenging but enjoys practicing characters. She hopes to visit Japan someday and have conversations with locals in Japanese. \n\nWhat language has Sarah been studying for two years?",
+        "a": "Japanese",
+        "b": "German",
+        "c": "Spanish",
+        "d": "French",
+        "rta": "a"
+    },
+    {
+        "pregunta": "They're selling their hous, ______?",
+        "a": "aren't they?",
+        "b": "haven't they",
+        "c": "have they?",
+        "d": "Will they?",
+        "rta": "a"
+    },
+    {
+        "pregunta": "The author _______ a fantastic book.",
+        "a": "wrote",
+        "b": "writing",
+        "c": "write",
+        "d": "writes",
+        "rta": "d"
+    },
+    {
+        "pregunta": "We've known Paul _____ two years. Have you _____ met him?",
+        "a": "sincelfor",
+        "b": "never/ever",
+        "c": "since/ever",
+        "d": "for/ever",
+        "rta": "d"
+    },
+    {
+        "pregunta": "Which of the following is an example of a coordinating conjunction?",
+        "a": "because",
+        "b": "however",
+        "c": "although",
+        "d": "and",
+        "rta": "d"
+    },
+    {
+        "pregunta": "I lovel ______ music",
+        "a": "a",
+        "b": "the",
+        "c": "a lot",
+        "d": "and",
+        "rta": "b"
+    },
+    {
+        "pregunta": "She ______ at the moment:",
+        "a": "'s tudying",
+        "b": "studies",
+        "c": "studied",
+        "d": "studys",
+        "rta": "a"
+    },
+    {
+        "pregunta": "Your bag is ______ the table.",
+        "a": "in",
+        "b": "front",
+        "c": "next",
+        "d": "on",
+        "rta": "d"
+    },
+    {
+        "pregunta": "Do you know how difficult it is to get out of poor neighborhood? It's very hard; but I did it, and it was thanks my mum. Now she doesn't have to work anymore, and I take care of her",
+        "a": "He is living with his mother at the moment",
+        "b": "His mother doesn't work now",
+        "c": "He works in two jobs",
+        "d": "He has been living in a poor neighbourhood since his childhood",
+        "rta": "d"
+    },
+    {
+        "pregunta": "Which sentence is in the past continuous tense?",
+        "a": "He will arrive tomorrow",
+        "b": "I eat breakfast every morning",
+        "c": "They were watching a movie when I caller",
+        "d": "She has been waiting for an hour",
+        "rta": "c"
+    },
+    {
+        "pregunta": "What thing caused a mess in the dryer? (AUDIO)",
+        "a": "chewing gum",
+        "b": "shorts",
+        "c": "a pen",
+        "d": "colored paper",
+        "rta": "c"
+    },
+    {
+        "pregunta": ".Friends have decided to return to New Sands for a couple of days because the surf board hire is so cheap there. I'm starting to think about accommodation. We won't camp again after last year! hated staying in a tent in all that rain!\n.Last year the friends stayed in a ...",
+        "a": "Hotel",
+        "b": "youth hostel",
+        "c": "caravan",
+        "d": "tent",
+        "rta": "d"
+    },
+    {
+        "pregunta": "The man doesn't want to watch the reality show because he ____",
+        "a": "watched the same program last week",
+        "b": "isn't interested in the show's theme",
+        "c": "he wants to fix things",
+        "d": "wants to go swimming instead",
+        "rta": "b"
+    },
+    {
+        "pregunta": "_____ at eight o'clock last night?",
+        "a": "Have you eat",
+        "b": "Did you eat",
+        "c": "Did you ate",
+        "d": "Do you eat",
+        "rta": "b"
+    },
+    {
+        "pregunta": "Many birds ______ south every winter",
+        "a": "is flying",
+        "b": "flew",
+        "c": "fly",
+        "d": "will fly",
+        "rta": "c"
+    },
+    {
+        "pregunta": "What happens at the end of the conversation?",
+        "a": "The apologizes for his mistake",
+        "b": "The woman is angny and leaves the house",
+        "c": "The couple argue about the situation",
+        "d": "Living the house angrily",
+        "rta": "a"
+    },
+    {
+        "pregunta": "I like apples _____ I don't like pears.",
+        "a": "so",
+        "b": "also",
+        "c": "but",
+        "d": "and",
+        "rta": "c"
+    },
+    {
+        "pregunta": "John walked through the park, marveling at the vibrant colors of the flowers and the gentle rustle of leaves in the breeze. He noticed families picnicking on the grass, children laughing as they played on the swings, and couples strolling hand in hand along the winding paths. The scent of freshly cut grass mingled with the aroma of blooming flowers, creating a serene atmosphere. As he continued his walk, John couldnt help but feel a sense of tranquility wash over him, grateful for the beauty of nature surrounding him.\n\nWhat is John doing in the park?",
+        "a": "Working on his laptop",
+        "b": "Walking",
+        "c": "Riding bicycle",
+        "d": "Jogging",
+        "rta": "b"
+    },
+    {
+        "pregunta": "What does the word \"conscientious\" mean?",
+        "a": "Disorganized",
+        "b": "Lazy",
+        "c": "Careless",
+        "d": "Hardworking and thorough",
+        "rta": "d"
+    },
+    {
+        "pregunta": "Who does the man need to call? (AUDIO)",
+        "a": "a store",
+        "b": "his office",
+        "c": "a repair company",
+        "d": "his friends",
+        "rta": "d"
+    },
+    {
+        "pregunta": "We're in the canteen. We ______ lunch",
+        "a": "have",
+        "b": "--",
+        "c": "eating",
+        "d": "are having",
+        "rta": "d"
+    },
+    {
+        "pregunta": "I love Kate. She's so _______.",
+        "a": "annoying",
+        "b": "ugly",
+        "c": "boring",
+        "d": "nice",
+        "rta": "d"
+    },
+    {
+        "pregunta": "First, he tried to break the record for the most jumping jacks He failed at first, but, remembering that 'anything is possible', he trained, meditated and tried again. This time, he did 27,000 jumping jacks in 6 hours 45 minutes and became the new record holder. His achievement appeared in the 1980 Guinness Book of Records.\n\n.Which activity did Ashrita do for his first world record?",
+        "a": "jumplng jacks ",
+        "b": "cycling ",
+        "c": "meditating ",
+        "d": "break the record",
+        "rta": "a"
+    },
+    {
+        "pregunta": "She ______ her family:",
+        "a": "loves'",
+        "b": "loves",
+        "c": "love's",
+        "d": "is loving",
+        "rta": "b"
+    },
+    {
+        "pregunta": "What happened to the Boston Americans? (AUDIO)",
+        "a": "They became the Red Sox",
+        "b": "They won the World Series",
+        "c": "They were bought on paper",
+        "d": "The lost the main game",
+        "rta": "a"
+    },
+    {
+        "pregunta": "I saw two ______ at the bus stop.",
+        "a": "mans",
+        "b": "man's",
+        "c": "mens",
+        "d": "men",
+        "rta": "d"
+    },
+    {
+        "pregunta": "I _______ often go to the theatre.",
+        "a": "hasn't",
+        "b": "don't",
+        "c": "do",
+        "d": "haven't",
+        "rta": "b"
+    },
+    {
+        "pregunta": "What did Jazz guitars need in the Big Band Era? (AUDIO)",
+        "a": "Amplification",
+        "b": "Simplification",
+        "c": "Stetificiation",
+        "d": "Unification",
+        "rta": "a"
+    },
+    {
+        "pregunta": "Emma is passionate about conservation of the environment and volunteers at a local nonprofit organization that focuses on protecting animals and wildlife habitats. She helps organize beach cleanups and educational workshops to raise awareness about the importance of preserving natural ecosystems. Emma hopes to inspire others to take action and make a positive impact on the planet.\n\nWhat cause is Emma passionate about?",
+        "a": "Human rights",
+        "b": "Environmental conservation",
+        "c": "Animal rights",
+        "d": "Beach",
+        "rta": "b"
+    },
+    {
+        "pregunta": "Today's grandparents are joining their grandchildren on social media, but the different generations' online habits couldnt be more different. In the UK the over-5Ss are joining Facebook in increasing numbers, meaning that they will soon be the sites second biggest user group, with 3.5 million users aged 55-64 and 2.9 million over-65s.\n\nSheila, aged 59, says, 'I joined to see what my grandchildren are doing, as my daughter posts videos and photos of them. It's a much better way to see what theyre doing than waiting for letters and photos in the post. That's how we did it when was a child, but think I'm lucky get to see so much more of their lives than my grandparents did.\n\nWhat is the traditional way Sheila used to receive updates about her grandchildren?",
+        "a": "Through social media",
+        "b": "Through phone calls",
+        "c": "Through video conferencing",
+        "d": "Through conventional mail",
+        "rta": "a"
+    },
+    {
+        "pregunta": "He was born ____ 1955",
+        "a": "on",
+        "b": "in",
+        "c": "for",
+        "d": "at",
+        "rta": "b"
+    },
+    {
+        "pregunta": "The man broke the law when he _____. (AUDIO)",
+        "a": "parked illegally near the school",
+        "b": "exceeded the speed limit",
+        "c": "didn't yield to children crossing the road",
+        "d": "the driver did not top",
+        "rta": "b"
+    },
+    {
+        "pregunta": "What clothing did the woman have in the dryer? (AUDIO)",
+        "a": "sweaters",
+        "b": "socks",
+        "c": "jeans",
+        "d": "shorts",
+        "rta": "d"
+    },
+    {
+        "pregunta": "My dad is a very ____ man. I always ask him for advice when I have a problem.",
+        "a": "wise",
+        "b": "retired",
+        "c": "tired",
+        "d": "flowing",
+        "rta": "a"
+    },
+    {
+        "pregunta": "My name is Mike. When I was little my mother took care of my brother and I because my father left before I came to this world, and he wasn't too interested in being part of our lives.",
+        "a": "Mike didn't see his father",
+        "b": "Mike lived with his father ",
+        "c": "Mike is interested in iving with his father",
+        "d": "Mike's father has died",
+        "rta": "d"
     }
 ]
